@@ -15,9 +15,12 @@ Additional steps before runing:
 Note: All requests send to IRIS at port 52774, change it before you run the application
 
 ## IRIS 
-1. Create a Namespace 
+1. Create a Namespace (IMAIL) 
 2. Import EmailIntel.xml which includes all classes and interoperability.
-3. Create a Web appication in IRIS using class RESTOperations.cls
+3. Create a Web appication (/api/email/) in IRIS - set Dispatch Class = "Email.RESTOperations" (RESTOperations.cls) 
+4. You will need to change `\Frontend React JS\gmail\public\js\controllers\gmail_controller.js`
+   it is referencing http://localhost:52774/api/email... to change port and host if necessary
+
 
 ## Google Colab
 1. Open the Email_Intelligence.ipynb on Google Colab.

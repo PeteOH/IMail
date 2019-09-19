@@ -13,13 +13,13 @@ Additional steps before runing:
 2. Replace the Client ID and API key in the gmail_controller.js in public/js/controllers
 
 Note: All requests send to IRIS at port 52774, change it before you run the application
+      You will need to change `\Frontend React JS\gmail\public\js\controllers\gmail_controller.js`
+      it is referencing http://localhost:52774/api/email... to change port and host if necessary
 
 ## IRIS 
 1. Create a Namespace (IMAIL) 
 2. Import EmailIntel.xml which includes all classes and interoperability.
 3. Create a Web appication (/api/email/) in IRIS - set Dispatch Class = "Email.RESTOperations" (RESTOperations.cls) 
-4. You will need to change `\Frontend React JS\gmail\public\js\controllers\gmail_controller.js`
-   it is referencing http://localhost:52774/api/email... to change port and host if necessary
 
 
 ## Google Colab

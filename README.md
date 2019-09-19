@@ -41,7 +41,9 @@ Additional steps may require if you want to use [Google Cloud Bucket](https://cl
 2. Install all required libraries
 
    `pip install tensorflow`
-   
+
+   `pip install tensorflow-hub`
+
    `pip install flask`
    
    `pip install bert`

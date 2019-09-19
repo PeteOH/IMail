@@ -23,7 +23,8 @@ Note: All requests send to IRIS at port 52774, change it before you run the appl
 
 
 ## Google Colab
-1. Open the Email_Intelligence.ipynb on Google Colab.
+1. Open the \IMAIL\Email_Intelligence.ipynb on Google Colab (https://colab.research.google.com/).
+             Import into Colab (Upload)
 2. The training required dataset (Enron and Apache) is available at [Google Drive](https://drive.google.com/file/d/1dhuyFJenfWrqqeXOxjWLqcgALNShpoS6/view?usp=sharing)
 
 Upload the dataset to Google drive and change the pd.read_csv() to your directory in Google Drive (recommanded)
